@@ -1,11 +1,10 @@
 body {
   max-width: 1920px;
   margin: auto;
-}
-* {
-  font-family: "Inter";
+  font-family: "Inter" Arial, sans-serif;
   font-style: normal;
 }
+
 .top-header {
   background-color: white;
   position: sticky;
@@ -80,7 +79,7 @@ body {
 }
 .about-me__introduction {
   font-family: "Spectral";
-  font-weight: 800;
+  font-variation-settings: "wght" 800;
   font-style: italic;
   width: 60%;
 }
@@ -89,9 +88,6 @@ body {
   font-size: 14px;
 }
 
-#gallery {
-  /*	min-height: 100vh; */
-}
 .title {
   text-align: center;
   padding-block: 2em;
@@ -253,7 +249,7 @@ input[type="submit"] {
     margin-top: 0;
     margin-bottom: 1em;
   }
-  #about-me h6,
+  #about-me h3,
   #about-me p {
     width: 100%;
   }
