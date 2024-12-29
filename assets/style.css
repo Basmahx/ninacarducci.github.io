@@ -44,8 +44,8 @@ body {
 .picture.left::before {
   content: " ";
   background-color: #e5975f;
-  width: 374px;
-  height: 329px;
+  width: 30vw; /* 30% of the viewport width */
+  height: 25vw;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -55,6 +55,7 @@ body {
   flex: 1;
   margin: 0 20px;
   z-index: 0;
+  max-width: 100%; /* Prevents overflow */
 }
 .picture img {
   width: 100%;
